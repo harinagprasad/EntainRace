@@ -29,6 +29,12 @@ accessibility and error-handling standards.
 
 ---
 
+## App Sample
+
+https://github.com/user-attachments/assets/9e87b8c4-44c7-41f3-ab9d-14fb1ba62bce
+
+---
+
 ### Technical Features
 
 1. **Clean Architecture:**
@@ -119,3 +125,4 @@ as more intuitive and better display of transaction history.
 **Unit Tests and UI Tests:** While races have been modeled and is working, unit tests for specific
 edge cases need further improvement.
 
+---
