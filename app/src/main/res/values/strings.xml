@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Next to Go</string>
+    <string name="next_to_go_racing">Next To Go Racing</string>
+    <string name="entain">Entain</string>
+    <string name="oops_something_went_wrong">Oops! Something went wrong.</string>
+    <string name="retry">Retry</string>
+    <string name="loading_your_races">Loading your races...</string>
+    <string name="error">Error: %1$s</string>
+    <string name="greyhound">Greyhound</string>
+    <string name="harness">Harness</string>
+    <string name="horse">Horse</string>
+    <string name="refesh">Refresh</string>
+    <string name="no_races_found">No Races found</string>
+    <string name="races">Races</string>
+</resources>
