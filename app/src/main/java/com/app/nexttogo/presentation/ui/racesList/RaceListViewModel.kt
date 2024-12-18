@@ -27,6 +27,9 @@ class RaceListViewModel @Inject constructor(
         fetchRace()
     }
 
+    /**
+     * function to fetch races
+     */
     fun fetchRace() {
         viewModelScope.launch {
             fetchRacesUseCase().collect { result ->
@@ -35,6 +38,9 @@ class RaceListViewModel @Inject constructor(
         }
     }
 
+    /**
+     * function to filter the races
+     */
     fun onFilter(raceCategory: RaceCategory, selected: Boolean) {
         val filters = mutableListOf<RaceCategory>()
         filters.addAll(selectedCategories.value)
