@@ -6,5 +6,13 @@ import javax.inject.Inject
 
 @HiltViewModel
 class MainViewModel @Inject constructor() : ViewModel() {
+/**
+ * ViewModel for MainActivity
+ *
+ * NO-OP
+ *
+ *
+ *  @see RaceListViewModel for the list of races
+ */
 
 }
